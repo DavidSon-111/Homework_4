@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="main.js"></script>
+    <div id="div-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit expedita
+      temporibus quidem nulla amet id autem odit eaque animi accusantium odio
+      cupiditate soluta dolor ullam optio vero, iste porro omnis?
+    </div>
+    <button id="hide-text" onclick="hideDiv()">click me</button>
+
+    <div class="question1">
+      <p>1. which is the Back - End Framework?</p>
+      <button id="q1a1" onclick="check('q1', 'q1a1', 'question1')">
+        React
+      </button>
+      <button id="q1a2" onclick="check('q1', 'q1a2', 'question1')">
+        Angular
+      </button>
+      <button id="q1a3" onclick="check('q1', 'q1a3', 'question1')">
+        Laravel
+      </button>
+    </div>
+
+    <div class="question2">
+      <p>2. how many UCL titles does real madrid have?</p>
+      <button id="q2a1" onclick="check('q2', 'q2a1', 'question2')">10</button>
+      <button id="q2a2" onclick="check('q2', 'q2a2', 'question2')">13</button>
+      <button id="q2a3" onclick="check('q2', 'q2a3', 'question2')">15</button>
+    </div>
+    <div class="question3">
+      <p>3. what is 2 + 2 ?</p>
+      <button id="q3a1" onclick="check('q3', 'q3a1', 'question3')">2</button>
+      <button id="q3a2" onclick="check('q3', 'q3a2', 'question3')">4</button>
+      <button id="q3a3" onclick="check('q3', 'q3a3', 'question3')">6</button>
+    </div>
+
+    <p id="score">Score: 0</p>
+  </body>
+</html>
